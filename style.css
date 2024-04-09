@@ -1,0 +1,9 @@
+body {
+    background:url("https://i.imgur.com/nD0pizV.png"); background-repeat: repeat; background-size: 50px;
+      background-color: #ffedf0;
+    font-family: 'winkle';
+    color: #af8f8b;
+    font-size:18;
+    cursor: url(https://i.ibb.co/HtKJDCT/IMG-8802.png), progress;}
+    a:hover { cursor: url(https://i.ibb.co/HtKJDCT/IMG-8802.png), progress;
+    }
