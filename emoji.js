@@ -1,6 +1,3 @@
-//   ・゜ ♡   emoji set code   ♡ ゜ ・
-//    © middlepot.com  ꒰ ू´ ˘ ` ू ꒱
-
 var whiteoverlay = document.createElement('div');
 whiteoverlay.id = 'emojis_whiteoverlay';
 whiteoverlay.style.position = 'fixed';
@@ -18,7 +15,7 @@ if(!$('#emojis_whiteoverlay').length){
 }
 
 function loadEmojis(){
-	var emojis = ['🐧', '☂️', '☎️', '☠️', '⛸️', '✂️', '✉️', '✏️', '✝️', '❤️', '⭐', '🌂', '🌈', '🌐', '🌑', '🌵', '🌸', '🌹', '🌼', '🍀', '🍒', '🍓', '🍞', '🍥', '🍦', '🍪', '🍫', '🍬', '🍭', '🍮', '🍯', '🍴', '🍼', '🍽️', '🎀', '🎄', '🎅', '🎈', '🎒', '🎮', '🎸', '🐀', '🐇', '🐑', '🐝', '🐶', '👑', '👒', '👓', '👯‍♀️', '👼', '💉', '💊', '💋', '💍', '💕', '💖', '💗', '💘', '💛', '💝', '💳', '💻', '💿', '📅', '📌', '📷', '🔑', '🔪', '🔫', '🕯️', '🕶️', '🕷️', '🕸️', '🖁', '🖌️', '🖍️', '🖤', '🗝️', '🛼', '🤍', '🥀', '🥄', '🥛', '🥞', '🥟', '🥣', '🥤', '🥳', '🦋', '🦌', '🦷', '🧁', '🧇', '🧙', '🧚', '🧢', '🧣', '🧤', '🧦', '🧶', '🧷', '🧹', '🧺', '🧼', '🩰', '🩹', '🪓', '🪙', '🪞', '🪡', '🪦', '🪭', '🪱', '🪷', '🪽'];
+	var emojis = ['🎉','🎶','👍','💙'];
 	$('script').each(function(){
 		if(!$(this).parent('textarea').length){
 			var inner = $(this).html();
@@ -32,7 +29,7 @@ function loadEmojis(){
 		var inner = this.nodeValue;
 		for(var i = 0; i < emojis.length; ++i){
 			var regex = new RegExp((emojis[i]+'((?!\.gif))'), "g");
-			var img = '<img src="https://kikittie.github.io/img/'+emojis[i]+'.png" style=" height: 20px; width; 20px; user-drag: none; -webkit-user-drag: none; user-select: none; -moz-user-select: none; -webkit-user-select: none; -ms-user-select: none;"></img>';
+			var img = '<img src="https://raw.githubusercontent.com/kikittie/nso-emojis/main/'+emojis[i]+'.png" style="user-drag: none; -webkit-user-drag: none; user-select: none; -moz-user-select: none; -webkit-user-select: none; -ms-user-select: none;"></img>';
 			inner = inner.replace(regex, img);
 		}
 		return inner;
@@ -59,5 +56,4 @@ else{*/
 	setTimeout(function(){$('#emojis_whiteoverlay').hide();}, 2000);
 //}
 
-//   ・゜ ♡   emoji set code   ♡ ゜ ・
-//    © middlepot.com  ꒰ ू´ ˘ ` ू ꒱
+// code originally by middlepot
