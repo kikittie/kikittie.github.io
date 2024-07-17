@@ -29,7 +29,7 @@ function loadEmojis(){
 		var inner = this.nodeValue;
 		for(var i = 0; i < emojis.length; ++i){
 			var regex = new RegExp((emojis[i]+'((?!\.gif))'), "g");
-			var img = '<img src="https://kikittie.github.io/nso/'+emojis[i]+'.png" style="user-drag: none; -webkit-user-drag: none; user-select: none; -moz-user-select: none; -webkit-user-select: none; -ms-user-select: none;" height="20px" width="20px"></img>';
+			var img = '<img src="https://kikittie.github.io/nso/'+emojis[i]+'.png" style="user-drag: none; -webkit-user-drag: none; user-select: none; -moz-user-select: none; -webkit-user-select: none; -ms-user-select: none; image-rendering: pixelated;" height="20px" width="20px"></img>';
 			inner = inner.replace(regex, img);
 		}
 		return inner;
