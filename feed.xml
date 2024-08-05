@@ -1,0 +1,65 @@
+<rss version="2.0">
+
+<channel>
+
+<title>꒰ rss title ꒱</title>
+<link>https://yourwesbiteurl.net</link>
+<description>꒰ rss description ꒱</description>
+<language>en-gb</language>
+<lastBuildDate>sun, 4 aug 2024 19:39 +01:00</lastBuildDate>
+<copyright>jubiland 2024. all rights reserved.</copyright>
+<webMaster>your name</webMaster>
+<author>youremail@gmail.com</author>
+
+<item>
+    <title>꒰ hihi ꒱</title>
+    <pubDate>sun, 4 aug 2024 19:39 +01:00</pubDate>
+    <description>
+     rawr
+    </description>
+</item>
+
+<item>
+    <title>꒰ hihi ꒱</title>
+    <pubDate>sun, 4 aug 2024 19:39 +01:00</pubDate>
+    <description>
+     rawr
+    </description>
+</item>
+
+<item>
+    <title>꒰ hihi ꒱</title>
+    <pubDate>sun, 4 aug 2024 19:39 +01:00</pubDate>
+    <description>
+     rawr
+    </description>
+</item>
+
+<item>
+    <title>꒰ hihi ꒱</title>
+    <pubDate>sun, 4 aug 2024 19:39 +01:00</pubDate>
+    <description>
+     rawr
+    </description>
+</item>
+
+<item>
+    <title>꒰ hihi ꒱</title>
+    <pubDate>sun, 4 aug 2024 19:39 +01:00</pubDate>
+    <description>
+     rawr
+    </description>
+</item>
+
+<item>
+    <title>꒰ hihi ꒱</title>
+    <pubDate>sun, 4 aug 2024 19:39 +01:00</pubDate>
+    <description>
+     rawr
+    </description>
+</item>
+
+
+</channel>
+
+</rss>
