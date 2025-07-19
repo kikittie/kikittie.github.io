@@ -18,7 +18,7 @@ if(!$('#emojis_whiteoverlay').length){
 }
 
 function loadEmojis(){
-	var emojis = ['🍮','👀'];
+	var emojis = ['🍮','👀','✝️','🧷'];
 	$('script').each(function(){
 		if(!$(this).parent('textarea').length){
 			var inner = $(this).html();
