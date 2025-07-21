@@ -11,7 +11,7 @@ whiteoverlay.style.width = '60%';
 whiteoverlay.style.height = '60%';
 whiteoverlay.style.top = '0';
 whiteoverlay.style.left = '0';
-whiteoverlay.style.background = '#fff';
+whiteoverlay.style.background = '#FFFFFF00';
 whiteoverlay.style.zIndex = '999999';
 if(!$('#emojis_whiteoverlay').length){
 	$(whiteoverlay).insertAfter('head');
