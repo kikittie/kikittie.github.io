@@ -4,7 +4,7 @@
 var whiteoverlay = document.createElement('div');
 whiteoverlay.id = 'emojis_whiteoverlay';
 whiteoverlay.style.position = 'fixed';
-whiteoverlay.style.display = 'flex';
+whiteoverlay.style.display = 'none';
 whiteoverlay.style.justifyContent = 'center';
 whiteoverlay.style.alignItems = 'center';
 whiteoverlay.style.width = '60%';
