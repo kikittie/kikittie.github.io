@@ -32,7 +32,7 @@ function loadEmojis(){
 		var inner = this.nodeValue;
 		for(var i = 0; i < emojis.length; ++i){
 			var regex = new RegExp((emojis[i]+'((?!\.gif))'), "g");
-			var img = '<img src="https://kikittie.github.io/emojis/'+emojis[i]+'.PNG" style=" height: 1.8vw; width; 1.8vw; user-drag: none; -webkit-user-drag: none; user-select: none; -moz-user-select: none; -webkit-user-select: none; -ms-user-select: none;"></img>';
+			var img = '<img src="https://kikittie.github.io/emojis/'+emojis[i]+'.PNG" style=" height: 15px; width; 15px; user-drag: none; -webkit-user-drag: none; user-select: none; -moz-user-select: none; -webkit-user-select: none; -ms-user-select: none;"></img>';
 			inner = inner.replace(regex, img);
 		}
 		return inner;
