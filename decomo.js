@@ -4,11 +4,11 @@
 var whiteoverlay = document.createElement('div');
 whiteoverlay.id = 'emojis_whiteoverlay';
 whiteoverlay.style.position = 'fixed';
-whiteoverlay.style.display = 'none';x
+whiteoverlay.style.display = 'none';
 whiteoverlay.style.justifyContent = 'center';
 whiteoverlay.style.alignItems = 'center';
-whiteoverlay.style.width = '40%';
-whiteoverlay.style.height = '40%';
+whiteoverlay.style.width = '10px';
+whiteoverlay.style.height = '10px';
 whiteoverlay.style.top = '0';
 whiteoverlay.style.left = '0';
 whiteoverlay.style.background = '#FFFFFF00';
