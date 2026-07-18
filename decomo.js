@@ -7,8 +7,8 @@ whiteoverlay.style.position = 'fixed';
 whiteoverlay.style.display = 'none';
 whiteoverlay.style.justifyContent = 'center';
 whiteoverlay.style.alignItems = 'center';
-whiteoverlay.style.width = '20px';
-whiteoverlay.style.height = '20px';
+whiteoverlay.style.width = '15px';
+whiteoverlay.style.height = '15px';
 whiteoverlay.style.top = '0';
 whiteoverlay.style.left = '0';
 whiteoverlay.style.background = '#FFFFFF00';
@@ -32,7 +32,7 @@ function loadEmojis(){
 		var inner = this.nodeValue;
 		for(var i = 0; i < emojis.length; ++i){
 			var regex = new RegExp((emojis[i]+'((?!\.gif))'), "g");
-			var img = '<img src="https://kikittie.github.io/decomo/'+emojis[i]+'.gif" style=" height: 10px; width: 10px; user-drag: none; -webkit-user-drag: none; user-select: none; -moz-user-select: none; -webkit-user-select: none; -ms-user-select: none;"></img>';
+			var img = '<img src="https://kikittie.github.io/decomo/'+emojis[i]+'.gif" style=" height: 15px; width: 15px; user-drag: none; -webkit-user-drag: none; user-select: none; -moz-user-select: none; -webkit-user-select: none; -ms-user-select: none;"></img>';
 			inner = inner.replace(regex, img);
 		}
 		return inner;
